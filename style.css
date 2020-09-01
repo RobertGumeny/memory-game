@@ -1,6 +1,11 @@
 .grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   height: 300px;
   width: 400px;
+}
+
+img {
+  margin: 2px;
 }
